@@ -1,0 +1,12 @@
+com\bankingexample\pageobject\AddCustomerPage.class
+com\bankingexample\testcases\TCLoginPageTest01.class
+com\bankingexample\utilities\CustomLogger.class
+com\bankingexample\pageobject\ManagerHomePage.class
+com\bankingexample\utilities\ReadConfig.class
+com\bankingexample\testcases\TCLoginPageDDTTest002.class
+com\bankingexample\utilities\MSOfficeUtil.class
+com\bankingexample\testcases\BaseClass.class
+com\bankingexample\pageobject\LoginPage.class
+com\bankingexample\utilities\Constants.class
+com\bankingexample\utilities\Reporting.class
+com\bankingexample\testcases\TCAddCustomerPageTest.class

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="bankingV1">
+
+    <listeners>
+        <listener class-name="com.bankingexample.utilities.Reporting"/>
+    </listeners>
+
+    <test name="banking_example">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.bankingexample.testcases.TCLoginPageTest01"/>
+            <class name="com.bankingexample.testcases.TCLoginPageDDTTest002"/>
+            <class name="com.bankingexample.testcases.TCAddCustomerPageTest"/>
+        </classes>
+    </test> <!-- banking_example -->
+</suite> <!-- Default Suite -->
